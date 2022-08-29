@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>The Hair Clinic</title>
+  </head>
+  <body class="text-orange-500 antialiased">
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-green-500"
+            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+            >The Hair Clinic</a
+          ><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar"
+        >
+  
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class=" text-green-500 fab fa-facebook text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Share</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class=" text-green-500 fab fa-twitter text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#pablo"
+                ><i
+                  class=" text-green-500 fab fa-github text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Star</span></a
+              >
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 115vh;"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-top bg-cover"
+          style='background-image: url("https://static.wixstatic.com/media/ba4581_5acfe73a17f347a2bb530fa5e8c54b8d~mv2.jpg/v1/fill/w_542,h_388,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/hair%20PRP.jpg");'
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-5xl">
+                  Hairs to a <span class="text-green-500">new you.</span> 
+                </h1>
+                <p class="mt-4 text-lg text-gray-300 mb-4">
+                  Welcome to the Hair Clinic. Thailand's elite hair transplant centre.
+                </p>
+                <a class="text-green-500 cursor-pointer bg-transparent p-2 border border-green-500 rounded m-8 hover:text-white hover:bg-green-500">Book a Consultation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </div>
+      
+          
+           
+      <section class="relative py-20 bg-black">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 bg-black"
+          style="height: 80px;"
+        > 
+        </div>
+        <div class="container mx-auto px-4 bg-black">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="https://myhairdoctor.com/wp-content/uploads/2018/08/myhairdoctor-hair-loss-men-1024x1024.jpg"
+              />
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-white-500 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg "
+                >
+                  
+                  <i class="text-green-500 fas fa-regular fa-user  text-xl fa-3x"></i>
+                </div>
+                <h3 class="text-3xl font-semibold text-white"><span class="text-green-500">Look great on the</span> outside.<br/> Feel great on the <span class="text-green-500">inside.</span> </h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                 Our world class doctors will give you the hair and confidence you deserve.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-500 bg-green-200 mr-3"
+                          ><i class="fas fa-fingerprint"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">
+                          Carefully crafted treatments
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-500 bg-green-200 mr-3"
+                          ><i class="fab fa-html5"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Highly qualified doctors</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-500 bg-green-200 mr-3"
+                          ><i class="far fa-paper-plane"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Impeccable after sales treatment</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-20 pb-48 bg-black">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-green-500">Meet our Team</h2>
+              <p class="text-lg leading-relaxed m-4 text-white">
+                Our doctors don't mess around.
+                They get results. So all you have to think about is how you're going to style that new hair of yours. 
+
+
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-green-500">Romina Hadid</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Concierge
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-green-500">Alexa Smith</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Nurse
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-green-500">Jenna Kardi</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Hair treatment Doctor
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-dribbble"></i></button
+                    ><button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="relative block py-24 lg:pt-0 bg-black">
+        <div class="container mx-auto px-4 ">
+          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="w-full lg:w-6/12 px-4">
+              <div
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 mt-12"
+              >
+                <div class="flex-auto p-5 lg:p-10 bg-green-500">
+                  <h4 class="text-2xl font-semibold text-white">Want to book a consultation?</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                    Complete this form and we will get back to you in 24 hours.
+                  </p>
+                  <div class="relative w-full mb-3 mt-8">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="full-name"
+                      >Full Name</label
+                    ><input
+                      type="text"
+                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      placeholder="Full Name"
+                      style="transition: all 0.15s ease 0s;"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="email"
+                      >Email</label
+                    ><input
+                      type="email"
+                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      placeholder="Email"
+                      style="transition: all 0.15s ease 0s;"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="message"
+                      >Message</label
+                    ><textarea
+                      rows="4"
+                      cols="80"
+                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                      placeholder="Type a message..."
+                    ></textarea>
+                  </div>
+                  <div class="text-center mt-6">
+                    <button
+                      class="hover:bg-black border border-black-100 text-black active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg  focus:outline-none mr-1 mb-1"
+                      type="button"
+                      style="transition: all 0.15s ease 0s;"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="relative pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold text-green-500">Follow us on social media!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-twitter"></i></button
+              ><button
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-facebook-square"></i></button
+              ><button
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-linkedin"></i></button
+              >
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+               
+              
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2019 The Hair Clinic
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>
